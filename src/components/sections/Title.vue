@@ -62,11 +62,11 @@ const addresses = [
   },
   {
     address_flag: "2",
-    name: "Key Laboratory of EvolutionaryScience Intelligence of Shanxi Province, Taiyuan. Shanxi. China",
+    name: "Key Laboratory of Evolutionary Science Intelligence of Shanxi Province, Taiyuan. Shanxi. China",
   },
   {
     address_flag: "3",
-    name: "Schoolof Artificial Intelligence, Shanxi University",
+    name: "School of Artificial Intelligence, Shanxi University",
 
   },
 ]
