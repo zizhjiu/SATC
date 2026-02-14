@@ -7,7 +7,7 @@ import abstract from '../mds/abstract.mdx';
     <el-divider />
 
     <el-row justify="center">
-        <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
+        <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12" class="abstract-container">
             <abstract />
         </el-col>
     </el-row>
@@ -16,5 +16,10 @@ import abstract from '../mds/abstract.mdx';
 </template>
 
 <style scoped>
+.abstract-container {
+  text-align: justify;
+  line-height: 1.75;
+  font-size: 15px;
+}
 
 </style>

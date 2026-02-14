@@ -26,7 +26,7 @@ const authors = [
   {
     name: "Zizheng Jiu",
     icon: "./icon/ZizhengJiu.jpg",
-    homepage: "https://junyaohu.github.io/",
+    homepage: "https://zizhjiu.github.io/",
     address_flag: "1,2,3,#"
   },
   {
