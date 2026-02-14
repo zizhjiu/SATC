@@ -19,7 +19,7 @@ import abstract from '../mds/abstract.mdx';
         <!-- 架构图 -->
         <div class="figure-box">
           <el-image
-            src="/structure.jpg"
+            src="./structure.jpg"
             fit="contain"
             class="figure-img"
           />
