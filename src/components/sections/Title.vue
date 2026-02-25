@@ -86,9 +86,10 @@ const emphases = [
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper",
-    component: Document,
+    link: "https://openreview.net/forum?id=3DOgmfZ2k6",
+    component: MagicStick,
   },
   {
     disabled: true,
@@ -101,10 +102,9 @@ const buttons = [
     component: Document,
   },
   {
-    disabled: false,
+    disabled: true,
     name: "Demo",
-    link: "https://junyaohu.github.io/academic-project-page-template-vue",
-    component: MagicStick,
+    component: Document,
   },
 ]
 
