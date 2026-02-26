@@ -19,17 +19,17 @@ export default {
     Title,
     Overview,
     Abstract,
-    Markdown,
-    BibTeX,
-    ImageSlider,
-    ImageSliderInner,
-    ImageSelector,
-    Echart,
-    Collapse,
-    Table,
-    SeletionForComparison,
-    Comment,
-    Latex,
+    // Markdown,
+    // BibTeX,
+    // ImageSlider,
+    // ImageSliderInner,
+    // ImageSelector,
+    // Echart,
+    // Collapse,
+    // Table,
+    // SeletionForComparison,
+    // Comment,
+    // Latex,
   }
 }
 </script>
@@ -38,15 +38,15 @@ export default {
   <Title/>
   <Overview/>
   <Abstract/>
-  <Markdown/>
-  <Latex/>
-  <Table/>
-  <Collapse/>
-  <Echart/>
 
-  <SeletionForComparison/>
-  <ImageSliderInner/>
-  <ImageSlider/>
-  <ImageSelector/>
-  <BibTeX/>
+  <!-- <Markdown/> -->
+  <!-- <Latex/> -->
+  <!-- <Table/> -->
+  <!-- <Collapse/> -->
+  <!-- <Echart/> -->
+  <!-- <SeletionForComparison/> -->
+  <!-- <ImageSliderInner/> -->
+  <!-- <ImageSlider/> -->
+  <!-- <ImageSelector/> -->
+  <!-- <BibTeX/> -->
 </template>

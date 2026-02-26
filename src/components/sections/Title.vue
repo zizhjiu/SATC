@@ -4,7 +4,7 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = './1.jpg'
+const logo = ""
 
 // 标题
 const title = 'Spatial Structure and Selective Text Jointly Facilitate Image Clustering'
@@ -76,12 +76,8 @@ const con_and_corresponding_author =
   "#: Equal Contribution. *: Corresponding Author."
 
 // 最新消息
-const news = "🔥 [2026-01-26] 🎉🎉Our paper has been accepted by ICLR 2026!🎉🎉"
-
-// 强调内容
-const emphases = [
-  "🎉🎉 Our paper has been accepted by [ICLR 2026] Poster! 🎉🎉",
-]
+const news = "🚧 More content is under construction, stay tuned!"
+    "🔥 [2026-01-26] 🎉🎉Our paper has been accepted by ICLR 2026!🎉🎉"
 
 // 提供引导资料链接
 const buttons = [
@@ -116,6 +112,7 @@ const buttons = [
     <!-- 最新消息提示 -->
     <el-row justify="center">
       <el-col :span="24">
+        <el-alert title="🚧 More content is under construction, stay tuned!" type="error" />
         <el-alert title="🔥 [2026-01-26] 🎉🎉Our paper has been accepted by ICLR 2026!🎉🎉" type="success" />
 
       </el-col>
