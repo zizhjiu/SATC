@@ -93,14 +93,16 @@ const buttons = [
     component: Document,
   },
   {
-    disabled: true,
-    name: "aiXiv",
-    component: Document,
+    disabled: false,
+    name: "Poster",
+    link: "https://iclr.cc/media/PosterPDFs/ICLR%202026/10011661.png?t=1775007327.0256083",
+    component: Picture,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Demo",
-    component: Document,
+    link: "https://youtu.be/X_sa9xGtU-c",
+    component: Film,
   },
 ]
 
@@ -113,6 +115,7 @@ const buttons = [
     <el-row justify="center">
       <el-col :span="24">
         <el-alert title="🚧 More content is under construction, stay tuned!" type="error" />
+        <el-alert title="📢 [2026-04-01]  Poster and DEMO video are now available! Click to view." type="success" />
         <el-alert title="🔥 [2026-01-26] 🎉🎉Our paper has been accepted by ICLR 2026!🎉🎉" type="success" />
 
       </el-col>
